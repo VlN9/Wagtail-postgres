@@ -25,7 +25,9 @@ With this command you can edit Wagtail service and to save a change.
 How to stop:
 
 Enter in terminal next command:
+
 $ docker compose stop
+
 It's all. Your project is stopped 
 
 Goodluck 
