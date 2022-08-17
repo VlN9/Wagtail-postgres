@@ -18,7 +18,7 @@ Flag ___-d___ run process in background.<br>
 Flag ___--build___ build images before runing container.<br>
 After this you should run container without using flag ___--build___.
 
-You can get access into a container use next command:
+You can access the container using the following command:
 ```
 $ docker exec -it <CONTAINER ID> /bin/ash
 ```
