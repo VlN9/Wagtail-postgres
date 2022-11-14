@@ -3,7 +3,7 @@ version: '3.7'
 services:
   web:
     build: app
-    container_name: wahtail-postgres-web
+    container_name: wagtail-postgres-web
     command: python manage.py runserver 0.0.0.0:8000 --settings=app.settings.dev
     volumes:
       - ./app/:/usr/src/app/
